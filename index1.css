@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+/* задаем размер сайту ; увеличиваем сайт */
+
+body{
+   margin: 0%; 
+   padding: 0%;
+}
+/* задаем отступ ; задаем внутренний отступ */
+
+header{
+    height: 192px;
+    background: grey;
+     
+}
+/* задаем высоту ; цвет блока серый */
+
+#first_nav{
+    height: 32px;
+    background: green;
+   
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+}
+/* задаем высоту ; цвет блока зеленый ; "растягиваем" в лево и право ;  display: flex; */
+
+#second_nav{
+    height: 62px;
+background: blue;
+   
+/* задаем высоту ; цвет блока синий */
+}
+#thred_nav{
+    height: 50px;
+background: rgb(233, 222, 8);
+/* задаем высоту ; цвет блока желтый */
+   
+}
+#ad{
+    height: 50px;
+background: rgb(255, 0, 0);
+    
+/* задаем высоту ; цвет блока красный */
+}
+#nav{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+/*  */
+
+#first_nav>div{
+    
+    height: 100%;
+    background: rgb(255, 124, 211);
+}
+/* задаем высоту ; цвет блока розовый */
+
+#first_nav_left{
+    width: 60%;
+}
+/* задаем ширину */
+
+#first_nav_right{
+    width: 40%; 
+    display: flex;
+    justify-content: flex-end;
+}
+/* задаем ширину ; блоки станут по гаризонтали; выравниваем блоки ;  выравневаем по концу главной оси блоки */
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* ul -  список ; display: flex; убираем маркеры списка ; задаём размер внешнего отступа вокруг элемента ; делаем отступы */
+.nav_li{
+    padding: 0;
+    margin-right: 10px;
+}
+/* делаем отступы ; задаем длинну справо */
+
+#second_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* display: flex; выравниваем блоки ; выравниваем по вертикале ; выравниваем все элементы */
+
+.right_li>img{
+width: 24px;
+}
+/* здаем ширину */
+
+.right_li{
+    margin-left: 10px;
+}
+
+/* устанавливаем ширину отступа слева */
+
+.second_li{
+    margin-right: 10px;
+}
+/*  устанавливаем ширину отступа справо */
+
+.main_banner>img{
+width: 1140px;
+height: 600px;
+}
+/* задаем ширину ; здаем высоту */
+
+.main_banner{
+    text-align: center;
+}
+/* выравниваем текст по серидине */
+.button_li>a{
+    display: flex;
+justify-content: center;
+align-items: center;
+    width: 250px;
+    height: 50px;
+    background-color: #ff8400;
+}
+/* display: flex; выравниваем блоки ; выравниваем к центру ; выравниваем все по вертикали ; задаем ширину ; здаем высоту ; цвет оранжевый */
+
+.button_li{
+    margin: 30px;
+}
+/* устанавливаем ширину отступа */
+
+.button_ul{
+    margin-top: 100px;
+}
+/* Задаем фиксированную длину */
