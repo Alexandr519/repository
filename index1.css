@@ -136,3 +136,8 @@ align-items: center;
     margin-top: 100px;
 }
 /* Задаем фиксированную длину */
+footer{
+    height: 200px;
+background-color: aqua;
+    text-align: center;
+}
